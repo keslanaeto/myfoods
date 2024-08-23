@@ -13,9 +13,9 @@ const Home = () => {
 
                   {/* text-content section */}
 
-                  <div className='space-y-7 text-black order-2 sm:order-1 sm:text-sm pt-12'>
+                  <div className='space-y-7 text-white order-2 sm:order-1 sm:text-sm pt-12'>
                     <h1 className='text-5xl font-Baskervville'> Welcome to <span className='text-primary'>Foodolis</span> </h1> 
-                    <p className='text-xl font-Dancing'> Fresh & Healthy Meal plan For You and Your Family</p>
+                    <p className='text-2xl font-Dancing'> Fresh & Healthy Meal plan For You and Your Family</p>
                   <p className='lg:pr-64 text-xl'>Order Your 
                     <span className='text-secondary font-Grypen'> Delicious </span> Meal From Our Resturant</p>
 
