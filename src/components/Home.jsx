@@ -11,7 +11,6 @@ const Home = () => {
         <div className='container sm:py-16'>
               <div className='grid grid-cols-1 sm:grid-cols-2 gap-4 place-items-center min-h-[500px]'>
 
-                  {/* text-content section */}
 
                   <div className='space-y-7 text-white order-2 sm:order-1 sm:text-sm pt-12'>
                     <h1 className='text-5xl font-Baskervville'> Welcome to <span className='text-primary'>Foodolis</span> </h1> 
@@ -20,14 +19,12 @@ const Home = () => {
                     <span className='text-secondary font-Grypen'> Delicious </span> Meal From Our Resturant</p>
 
 
-                     {/* button */}
-
                      <div className='flex justify-center mt-14 sm:mt-14 pt-18'>
                         <PrimaryButton />
                      </div>
                   </div>
 
-                  {/* image section */}
+              
 
                   <div className='h-[20rem] w-[20rem] relative z-30 order-2 sm:order-1 ms:pt-5'>
                      < img src={ofada} alt="" className='w-full sm:scale-125 sm:translate-y-16'/>
