@@ -14,13 +14,13 @@ const Footer = () => {
   return (
     <>
     
-    <div className="bg-gray-100 dark:bg-gray-100 ">
+    <div className="bg-gray-100 dark:bg-gray-100 mt-5 ">
         <div className='max-w-[1200px] mx-auto'>
             <div className="grid md:grid-cols-3 py-5">
                   <div className='py-8 p-4'>
                     <h1 className='text-3xl font-bold text-primary mr-4 sm:text-4xl font-poppins'>FOODOLIS</h1>
                     <p>
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam quo amet ut at.
+                        Foodolis we bring you a well prepared meal with beautiful asthetics
                         </p>
 
                         <br />
@@ -54,7 +54,7 @@ const Footer = () => {
                             
                         <div className='py-8 px-4 pl-6'>
                              <h1 className='text-xl font-bold text-justify sm:text-left mb-3'>Links</h1>
-                             <ul className='flex flex-col gap-4'>
+                             <ul className='flex flex-col gap-4 cursor-pointer'>
                                 <li>Home</li>
                                 <li>About</li>
                                 <li>Shop</li>
@@ -65,7 +65,7 @@ const Footer = () => {
 
                         <div className='py-8 px-4 pl-36'>
                              <h1 className='text-xl font-bold text-justify sm:text-left mb-3'>Links</h1>
-                             <ul className='flex flex-col gap-3'>
+                             <ul className='flex flex-col gap-3 cursor-pointer'>
                                 <li>Home</li>
                                 <li>About</li>
                                 <li>Shop</li>

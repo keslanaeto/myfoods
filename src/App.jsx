@@ -5,6 +5,7 @@ import Other from './components/Other'
 import AppStore from './components/AppStore'
 import Test from './components/Test'
 import Footer from './components/Footer'
+import Review from './components/Review'
 
 
 
@@ -16,6 +17,7 @@ const App = () => {
       <Other />
       <AppStore />
       <Test />
+      <Review />
       <Footer />
      
     </div>
