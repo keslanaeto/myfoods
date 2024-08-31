@@ -1,5 +1,6 @@
 import React from 'react'
-import ofada from '../assets/ofada.png'
+// import ofada from '../assets/ofada.png'
+import cover from '../assets/cover.png'
 import PrimaryButton from './PrimaryButton'
 
 
@@ -26,8 +27,8 @@ const Home = () => {
 
               
 
-                  <div className='h-[20rem] w-[20rem] relative z-30 order-2 sm:order-1 ms:pt-5'>
-                     < img src={ofada} alt="" className='w-full sm:scale-125 sm:translate-y-16'/>
+                  <div className='h-[20rem] w-[28rem] relative z-30 order-2 sm:order-1 ms:pt-5'>
+                     < img src={cover} alt="" className='w-full sm:scale-125 sm:translate-y-16'/>
                   </div>
               </div>
         </div>

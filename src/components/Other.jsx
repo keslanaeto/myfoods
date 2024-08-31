@@ -10,7 +10,7 @@ import salad from '../assets/salad.png'
 import fruitboe from '../assets/fruitboe.png'
 import fruit from '../assets/fruit.png'
 import bowlfruit from '../assets/bowlfruit.png'
-import orange from '../assets/orange.png'
+import soup from '../assets/soup.png'
 import banana from '../assets/banana.png'
 import berry from '../assets/berry.png'
 import apple from '../assets/apple.png'
@@ -32,7 +32,7 @@ const ServicesData = [
 
      {
           id: 2,
-          img: orange,
+          img: soup,
           name: "A Bowl of Fruits",
           describtion: "Oranges, Apple, Grapes, Banana",
           star: star, 
